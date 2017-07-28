@@ -92,10 +92,9 @@ body{
 .aboutme {
 	border: solid 1px #dddddd;
 	float: left;
-	position: absolute;
 	background-color: #ffffff;
 	height: auto;
-	width: 650px;
+	max-width: 650px;
 	padding: 15px 15px 15px 10px;
 	margin: 35px 35px 40px 0px;
 }
@@ -128,20 +127,20 @@ body{
 .sidebar {
 	/*display: inline-block;*/
 	float: right;
-	position: relative;
+	/*position: relative;*/
 	height: auto;
-	width: 270px;
+	width: 200px;
 	background-color: #ffffff;
 /*	padding: 20px;*/
 	border: solid 1px #dddddd;
-	margin-top: 35px
-
+	margin-top: 35px;
 }
 
 
 	  
 .sidebar h2 { 
 	color: #4aaaa5;
+	text-align: center;
 	font-weight: bold;
 	font-size: 20px;
 	font-family:'Georgia', Times, 'Times New Roman', serif;
@@ -151,12 +150,12 @@ body{
 
 
 .imagesconnect img{
-	/*display: inline-block;*/
-	height: 35px;
-	/*align-self: center;*/
-/*	float: left;*/
-	margin: 20px 20px 20px 20px;
-/*	clear: both;*/
+	width: 50px;
+ 	height: 50px;
+  	margin-top: 8px;
+  	margin-right: 5px;
+	margin-left: 8px;
+	margin-bottom: 8px;
 }
 
 
@@ -178,10 +177,9 @@ input {
 }
 
 input[type=text], select {
-    width: 30%;
+    width: 100%;
     padding: 12px 20px;
     margin: 8px 0;
-    display: block;
     box-sizing: border-box;
 }
 
@@ -198,12 +196,8 @@ input[type=submit] {
 .footer {
 	height: 90px;
 	text-align-last: center;
-/*	display: block;*/
-/*	position: fixed;*/
-/*	bottom: 0*/
 	left:0;
 	height: 80px;
-/*	width: 100%;*/
 	background-color: #666666;
 	border-top:solid 5px #4aaaa5;
 	font-family: 'Georgia', Times, 'Times New Roman', serif;
